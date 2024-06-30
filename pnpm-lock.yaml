@@ -181,8 +181,8 @@ importers:
         specifier: ^1.0.1
         version: 1.0.1
       textlint-rule-diacritics:
-        specifier: ^1.0.0
-        version: 1.0.0
+        specifier: ^2.0.0
+        version: 2.0.1
       textlint-rule-en-capitalization:
         specifier: ^2.0.3
         version: 2.0.3
@@ -4713,8 +4713,8 @@ packages:
   markdown-table@2.0.0:
     resolution: {integrity: sha512-Ezda85ToJUBhM6WGaG6veasyym+Tbs3cMAw/ZhOPqXiYsr0jgocBV3j3nx+4lk47plLlIqjwuTm/ywVI+zjJ/A==}
 
-  match-casing@1.0.3:
-    resolution: {integrity: sha512-oMyC3vUVCFbGu+M2Zxl212LPJThcaw7QxB5lFuJPQCgV/dsGBP0yZeCoLmX6CiBkoBcVbAKDJZrBpJVu0XcLMw==}
+  match-casing@2.0.1:
+    resolution: {integrity: sha512-LeCq9FI5u4nppJnt4hklxcchkH9qH9+uFjX17f74a99lLkRXfVE49iL0hCtM5DZolps483viAy5zjvlTz/JNoA==}
 
   match-index@1.0.3:
     resolution: {integrity: sha512-1XjyBWqCvEFFUDW/MPv0RwbITRD4xQXOvKoPYtLDq8IdZTfdF/cQSo5Yn4qvhfSSZgjgkTFsqJD2wOUG4ovV8Q==}
@@ -6281,6 +6281,10 @@ packages:
     resolution: {integrity: sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==}
     engines: {node: '>=8'}
 
+  strip-json-comments@5.0.1:
+    resolution: {integrity: sha512-0fk9zBqO67Nq5M/m45qHCJxylV/DhBlIOVExqgOMiCCrzrhU6tCibRXNqE3jwJLftzE9SNuZtYbpzcO+i9FiKw==}
+    engines: {node: '>=14.16'}
+
   strip-literal@2.0.0:
     resolution: {integrity: sha512-f9vHgsCWBq2ugHAkGMiiYY+AYG0D/cbloKKg0nhaaaSNsujdGIpVXCNsrJpCKr5M0f4aI31mr13UjY6GAuXCKA==}
 
@@ -6388,9 +6392,9 @@ packages:
   textlint-rule-common-misspellings@1.0.1:
     resolution: {integrity: sha512-f5KWhQFJzJBUX3RirAS25aSkAaaOHeSHtBeb7d49O+vxnAX3dZBS5DB/e5M1kR4tifW4qae64oqWZygoGYWkjQ==}
 
-  textlint-rule-diacritics@1.0.0:
-    resolution: {integrity: sha512-hhJvDZzhV+sKD7walPQ4VmWkBw5o1T/lFLRsoDsAJF+LYhD89R5/L4yFVtxFRUkP9VZ5cvoUIPkYjZvkPEawTA==}
-    engines: {node: '>=8.6'}
+  textlint-rule-diacritics@2.0.1:
+    resolution: {integrity: sha512-N2kavH+LhCzVI1f3IP9oGUC8KLTjdGzZX+0VEPSPoiw1uTZzsRuY+xLrvNEoJOg/7Md4DySCVcfKEAQGXoPLUQ==}
+    engines: {node: '>=20'}
 
   textlint-rule-en-capitalization@2.0.3:
     resolution: {integrity: sha512-tIx2gzm3okWfK5+0NNV1ap21LHk9PTc2/IXNqFhd7RDVSqv7YFaZnhwL+UrBZXTEfOh6VgnTQd81Os2Akzas5g==}
@@ -12001,7 +12005,7 @@ snapshots:
     dependencies:
       repeat-string: 1.6.1
 
-  match-casing@1.0.3: {}
+  match-casing@2.0.1: {}
 
   match-index@1.0.3:
     dependencies:
@@ -13816,6 +13820,8 @@ snapshots:
 
   strip-json-comments@3.1.1: {}
 
+  strip-json-comments@5.0.1: {}
+
   strip-literal@2.0.0:
     dependencies:
       js-tokens: 8.0.3
@@ -13942,10 +13948,10 @@ snapshots:
       misspellings: 1.1.0
       textlint-rule-helper: 1.2.0
 
-  textlint-rule-diacritics@1.0.0:
+  textlint-rule-diacritics@2.0.1:
     dependencies:
-      match-casing: 1.0.3
-      strip-json-comments: 3.1.1
+      match-casing: 2.0.1
+      strip-json-comments: 5.0.1
 
   textlint-rule-en-capitalization@2.0.3:
     dependencies:
